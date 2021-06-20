@@ -1,0 +1,29 @@
+@import "custom-variables";
+@import "C:/Users/sunid/Documents/Mendix/Veersa Timesheet-main/theme/styles/web/css/main.css";
+.card.cardtimeentry {
+    padding      : 0px;
+    border-radius: 6px;
+    overflow     : hidden;
+    margin-bottom: 15px;
+    border-top   : 5px solid #ccc
+}
+
+.card.cardtimeentry[cssselectorhelper="Approved"] {
+    border-top: 5px solid #6fd162
+}
+
+.card.cardtimeentry[cssselectorhelper="Declined"] {
+    border-top: 5px solid #FF5D5D
+}
+
+.card.cardtimeentry .btn {
+    height   : 37px;
+    font-size: 1rem
+}
+
+.card.cardtimeentry .badge {
+    margin: 3px 0
+}
+.card.cardtimeentry[cssselectorhelper="Under_Review"] {
+    border-top: 5px solid #2f6698
+}

@@ -1,0 +1,1 @@
+define(["CssSelectorHelperWidget/widget/CssSelectorHelperWidget", "CssSelectorHelperWidget/widget/CssSelectorHelperWidgetContext", "DrawLine/widget/DrawLine", "SprintrFeedbackWidget/SprintrFeedback"], {});

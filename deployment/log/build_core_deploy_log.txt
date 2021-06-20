@@ -1,0 +1,10 @@
+Buildfile: C:\Users\sunid\Documents\Mendix\Veersa Timesheet-main\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 34 files to C:\Users\sunid\Documents\Mendix\Veersa Timesheet-main\deployment
+     [copy] Copying 60 files to C:\Users\sunid\Documents\Mendix\Veersa Timesheet-main\deployment\model\lib\userlib
+     [copy] Copying 5 files to C:\Users\sunid\Documents\Mendix\Veersa Timesheet-main\deployment\model\resources
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
