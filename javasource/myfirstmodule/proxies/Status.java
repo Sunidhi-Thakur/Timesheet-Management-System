@@ -8,8 +8,7 @@ public enum Status
 {
 	Approved(new java.lang.String[][] { new java.lang.String[] { "en_US", "Approved" } }),
 	Declined(new java.lang.String[][] { new java.lang.String[] { "en_US", "Declined" } }),
-	Under_Review(new java.lang.String[][] { new java.lang.String[] { "en_US", "Under Review" } }),
-	Submitted(new java.lang.String[][] { new java.lang.String[] { "en_US", "Submitted" } });
+	Under_Review(new java.lang.String[][] { new java.lang.String[] { "en_US", "Under Review" } });
 
 	private java.util.Map<java.lang.String, java.lang.String> captions;
 

@@ -21,7 +21,6 @@ public class Timesheet
 	public enum MemberNames
 	{
 		ProjectName("ProjectName"),
-		TaskID("TaskID"),
 		TaskName("TaskName"),
 		Hours("Hours"),
 		Minutes("Minutes"),
@@ -163,42 +162,6 @@ public class Timesheet
 	public final void setProjectName(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String projectname)
 	{
 		getMendixObject().setValue(context, MemberNames.ProjectName.toString(), projectname);
-	}
-
-	/**
-	 * @return value of TaskID
-	 */
-	public final java.lang.Long getTaskID()
-	{
-		return getTaskID(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of TaskID
-	 */
-	public final java.lang.Long getTaskID(com.mendix.systemwideinterfaces.core.IContext context)
-	{
-		return (java.lang.Long) getMendixObject().getValue(context, MemberNames.TaskID.toString());
-	}
-
-	/**
-	 * Set value of TaskID
-	 * @param taskid
-	 */
-	public final void setTaskID(java.lang.Long taskid)
-	{
-		setTaskID(getContext(), taskid);
-	}
-
-	/**
-	 * Set value of TaskID
-	 * @param context
-	 * @param taskid
-	 */
-	public final void setTaskID(com.mendix.systemwideinterfaces.core.IContext context, java.lang.Long taskid)
-	{
-		getMendixObject().setValue(context, MemberNames.TaskID.toString(), taskid);
 	}
 
 	/**

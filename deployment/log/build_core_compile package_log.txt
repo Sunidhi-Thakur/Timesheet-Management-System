@@ -1,7 +1,7 @@
 Buildfile: C:\Users\sunid\Documents\Mendix\Veersa Timesheet-main\deployment\build_core.xml
 
 compile:
-    [javac] Compiling 3 source files to C:\Users\sunid\Documents\Mendix\Veersa Timesheet-main\deployment\run\bin
+    [javac] Compiling 1 source file to C:\Users\sunid\Documents\Mendix\Veersa Timesheet-main\deployment\run\bin
     [javac] Note: C:\Users\sunid\Documents\Mendix\Veersa Timesheet-main\javasource\system\UserActionsRegistrar.java uses or overrides a deprecated API.
     [javac] Note: Recompile with -Xlint:deprecation for details.
 

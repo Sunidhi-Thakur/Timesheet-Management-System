@@ -24,7 +24,6 @@ public class Project
 		Start("Start"),
 		End("End"),
 		ProjectManager("ProjectManager"),
-		ProjectType("ProjectType"),
 		Project_Project_Doc("MyFirstModule.Project_Project_Doc");
 
 		private java.lang.String metaName;
@@ -262,50 +261,6 @@ public class Project
 	public final void setProjectManager(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String projectmanager)
 	{
 		getMendixObject().setValue(context, MemberNames.ProjectManager.toString(), projectmanager);
-	}
-
-	/**
-	 * Set value of ProjectType
-	 * @param projecttype
-	 */
-	public final myfirstmodule.proxies.TaskType getProjectType()
-	{
-		return getProjectType(getContext());
-	}
-
-	/**
-	 * @param context
-	 * @return value of ProjectType
-	 */
-	public final myfirstmodule.proxies.TaskType getProjectType(com.mendix.systemwideinterfaces.core.IContext context)
-	{
-		Object obj = getMendixObject().getValue(context, MemberNames.ProjectType.toString());
-		if (obj == null)
-			return null;
-
-		return myfirstmodule.proxies.TaskType.valueOf((java.lang.String) obj);
-	}
-
-	/**
-	 * Set value of ProjectType
-	 * @param projecttype
-	 */
-	public final void setProjectType(myfirstmodule.proxies.TaskType projecttype)
-	{
-		setProjectType(getContext(), projecttype);
-	}
-
-	/**
-	 * Set value of ProjectType
-	 * @param context
-	 * @param projecttype
-	 */
-	public final void setProjectType(com.mendix.systemwideinterfaces.core.IContext context, myfirstmodule.proxies.TaskType projecttype)
-	{
-		if (projecttype != null)
-			getMendixObject().setValue(context, MemberNames.ProjectType.toString(), projecttype.toString());
-		else
-			getMendixObject().setValue(context, MemberNames.ProjectType.toString(), null);
 	}
 
 	/**
